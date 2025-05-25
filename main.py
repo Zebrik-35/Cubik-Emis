@@ -143,7 +143,7 @@ if __name__ == '__main__':
 
         cv2.imshow('result', img)
         cv2.imshow('red', thresh_red)
-        cv2.imshow('greem', thresh_green)
+        cv2.imshow('green', thresh_green)
 
         ch = cv2.waitKey(5)
         if ch == 27:
